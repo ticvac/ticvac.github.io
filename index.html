@@ -23,40 +23,23 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="connect_four_online_2">
+  <meta name="apple-mobile-web-app-title" content="doucka">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>connect_four_online_2</title>
+  <title>doucka</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "2387129944";
+    var serviceWorkerVersion = "3571292";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
-  <link rel=”icon” href=”favicon.ico”>
-
-  <style>
-      .container {
-        width: 100vw;
-        height: 100vh;
-        display: flex; /* Default Axis is X*/
-        justify-content: center; /* Main Axis */
-        align-items: center; /* Cross Axis */
-      }
-      .indicator{
-        width: 50vw;
-      }
-  </style>
 </head>
-<body style="background-color:black; overflow: hidden">
-  <div id="loading_indicator" class="container">
-    <img class="indicator" src="./assets/loading.gif" />
-  </div>
+<body>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
@@ -72,21 +55,5 @@
       });
     });
   </script>
-
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-
-  <script>
-    var firebaseConfig = {
-  apiKey: "AIzaSyD8zlFYoJyVhDWrSLiXlBuatoa9nUvGnz8",
-  authDomain: "connect-four-online-2.firebaseapp.com",
-  projectId: "connect-four-online-2",
-  storageBucket: "connect-four-online-2.appspot.com",
-  messagingSenderId: "694537138409",
-  appId: "1:694537138409:web:c25c3ce8dbe0a87f8b0078"
-  };
-
-  firebase.initializeApp(firebaseConfig);
-  </script>
-
 </body>
 </html>
